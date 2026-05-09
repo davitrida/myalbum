@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Emblema México",
+    "pais": "México",
+    "codigo": "MEX-001"
+  },
+  {
+    "nome": "Luis Malagón",
+    "pais": "México",
+    "codigo": "MEX-002"
+  },
+  {
+    "nome": "Johan Vásquez",
+    "pais": "México",
+    "codigo": "MEX-003"
+  },
+  {
+    "nome": "Jorge Sánchez",
+    "pais": "México",
+    "codigo": "MEX-004"
+  },
+  {
+    "nome": "César Montes",
+    "pais": "México",
+    "codigo": "MEX-005"
+  },
+  {
+    "nome": "Jesús Gallardo",
+    "pais": "México",
+    "codigo": "MEX-006"
+  },
+  {
+    "nome": "Israel Reves",
+    "pais": "México",
+    "codigo": "MEX-007"
+  },
+  {
+    "nome": "Diego Lainez",
+    "pais": "México",
+    "codigo": "MEX-008"
+  },
+  {
+    "nome": "Carlos Rodríguez",
+    "pais": "México",
+    "codigo": "MEX-009"
+  },
+  {
+    "nome": "Edson Álvarez",
+    "pais": "México",
+    "codigo": "MEX-010"
+  },
+  {
+    "nome": "Orbelín Pineda",
+    "pais": "México",
+    "codigo": "MEX-011"
+  },
+  {
+    "nome": "Marcel Ruiz",
+    "pais": "México",
+    "codigo": "MEX-012"
+  },
+  {
+    "nome": "Seleção México",
+    "pais": "México",
+    "codigo": "MEX-013"
+  },
+  {
+    "nome": "Érick Sanchez",
+    "pais": "México",
+    "codigo": "MEX-014"
+  },
+  {
+    "nome": "Hirving Lozano",
+    "pais": "México",
+    "codigo": "MEX-015"
+  },
+  {
+    "nome": "Santiago Giménez",
+    "pais": "México",
+    "codigo": "MEX-016"
+  },
+  {
+    "nome": "Raúl Jimenez",
+    "pais": "México",
+    "codigo": "MEX-017"
+  },
+  {
+    "nome": "Alexis Vega",
+    "pais": "México",
+    "codigo": "MEX-018"
+  },
+  {
+    "nome": "Roberto Alvarado",
+    "pais": "México",
+    "codigo": "MEX-019"
+  },
+  {
+    "nome": "César Huerta",
+    "pais": "México",
+    "codigo": "MEX-020"
+  }
+]

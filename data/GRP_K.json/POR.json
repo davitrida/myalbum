@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Emblema Portugal",
+    "pais": "Portugal",
+    "codigo": "POR-001"
+  },
+  {
+    "nome": "Diogo Costa",
+    "pais": "Portugal",
+    "codigo": "POR-002"
+  },
+  {
+    "nome": "José Sá",
+    "pais": "Portugal",
+    "codigo": "POR-003"
+  },
+  {
+    "nome": "Rúben Dias",
+    "pais": "Portugal",
+    "codigo": "POR-004"
+  },
+  {
+    "nome": "João Cancelo",
+    "pais": "Portugal",
+    "codigo": "POR-005"
+  },
+  {
+    "nome": "Diogo Dalot",
+    "pais": "Portugal",
+    "codigo": "POR-006"
+  },
+  {
+    "nome": "Nuno Mendes",
+    "pais": "Portugal",
+    "codigo": "POR-007"
+  },
+  {
+    "nome": "Gonçalo Inácio",
+    "pais": "Portugal",
+    "codigo": "POR-008"
+  },
+  {
+    "nome": "Bernardo Silva",
+    "pais": "Portugal",
+    "codigo": "POR-009"
+  },
+  {
+    "nome": "Bruno Fernandes",
+    "pais": "Portugal",
+    "codigo": "POR-010"
+  },
+  {
+    "nome": "Rúben Neves",
+    "pais": "Portugal",
+    "codigo": "POR-011"
+  },
+  {
+    "nome": "Vitinha",
+    "pais": "Portugal",
+    "codigo": "POR-012"
+  },
+  {
+    "nome": "Seleção Portugal",
+    "pais": "Portugal",
+    "codigo": "POR-013"
+  },
+  {
+    "nome": "João Neves",
+    "pais": "Portugal",
+    "codigo": "POR-014"
+  },
+  {
+    "nome": "Cristiano Ronaldo",
+    "pais": "Portugal",
+    "codigo": "POR-015"
+  },
+  {
+    "nome": "Francisco Trincão",
+    "pais": "Portugal",
+    "codigo": "POR-016"
+  },
+  {
+    "nome": "João Félix",
+    "pais": "Portugal",
+    "codigo": "POR-017"
+  },
+  {
+    "nome": "Gonçalo Ramos",
+    "pais": "Portugal",
+    "codigo": "POR-018"
+  },
+  {
+    "nome": "Pedro Neto",
+    "pais": "Portugal",
+    "codigo": "POR-019"
+  },
+  {
+    "nome": "Rafael Leão",
+    "pais": "Portugal",
+    "codigo": "POR-020"
+  }
+]

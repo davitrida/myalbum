@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Emblema Argentina",
+    "pais": "Argentina",
+    "codigo": "ARG-001"
+  },
+  {
+    "nome": "Emiliano Martínez",
+    "pais": "Argentina",
+    "codigo": "ARG-002"
+  },
+  {
+    "nome": "Nahuel Molina",
+    "pais": "Argentina",
+    "codigo": "ARG-003"
+  },
+  {
+    "nome": "Cristian Romero",
+    "pais": "Argentina",
+    "codigo": "ARG-004"
+  },
+  {
+    "nome": "Nicolás Otamendi",
+    "pais": "Argentina",
+    "codigo": "ARG-005"
+  },
+  {
+    "nome": "Nicolás Tagliafico",
+    "pais": "Argentina",
+    "codigo": "ARG-006"
+  },
+  {
+    "nome": "Leonardo Balerdi",
+    "pais": "Argentina",
+    "codigo": "ARG-007"
+  },
+  {
+    "nome": "Enzo Fernández",
+    "pais": "Argentina",
+    "codigo": "ARG-008"
+  },
+  {
+    "nome": "Alexis Mac Allister",
+    "pais": "Argentina",
+    "codigo": "ARG-009"
+  },
+  {
+    "nome": "Rodrigo De Paul",
+    "pais": "Argentina",
+    "codigo": "ARG-010"
+  },
+  {
+    "nome": "Exequiel Palacios",
+    "pais": "Argentina",
+    "codigo": "ARG-011"
+  },
+  {
+    "nome": "Leandro Paredes",
+    "pais": "Argentina",
+    "codigo": "ARG-012"
+  },
+  {
+    "nome": "Seleção Argentina",
+    "pais": "Argentina",
+    "codigo": "ARG-013"
+  },
+  {
+    "nome": "Nico Paz",
+    "pais": "Argentina",
+    "codigo": "ARG-014"
+  },
+  {
+    "nome": "Franco Mastantuono",
+    "pais": "Argentina",
+    "codigo": "ARG-015"
+  },
+  {
+    "nome": "Nico González",
+    "pais": "Argentina",
+    "codigo": "ARG-016"
+  },
+  {
+    "nome": "Lionel Messi",
+    "pais": "Argentina",
+    "codigo": "ARG-017"
+  },
+  {
+    "nome": "Lautaro Martínez",
+    "pais": "Argentina",
+    "codigo": "ARG-018"
+  },
+  {
+    "nome": "Julián Álvarez",
+    "pais": "Argentina",
+    "codigo": "ARG-019"
+  },
+  {
+    "nome": "Giuliano Simeone",
+    "pais": "Argentina",
+    "codigo": "ARG-020"
+  }
+]

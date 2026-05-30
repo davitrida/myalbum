@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Banco de dados (gerado pelo seed.py)
+stickers.db
+
+# Next.js
+frontend_myalbum/.next/
+frontend_myalbum/node_modules/
+frontend_myalbum/.env.local

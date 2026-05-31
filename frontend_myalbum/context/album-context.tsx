@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useState, ReactNode, useCallback, useRef, useEffect } from "react"
 
-const API_BASE = "http://localhost:8000"
+const API_BASE = `http://${typeof window !== "undefined" ? window.location.hostname : "localhost"}:8000`
 
 export interface StickerInfo {
   id: number

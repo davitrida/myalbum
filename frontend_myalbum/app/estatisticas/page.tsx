@@ -1,8 +1,13 @@
 "use client"
 
+import dynamic from "next/dynamic"
 import { Header } from "@/components/header"
 import { useAlbum } from "@/context/album-context"
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts"
+
+const StatsChart = dynamic(
+  () => import("@/components/stats-chart").then((m) => m.StatsChart),
+  { ssr: false }
+)
 
 function StatCard({ label, value }: { label: string; value: number | string }) {
   return (
@@ -19,11 +24,6 @@ function EstatisticasContent() {
   const missing = totalStickers - totalCollected
   const percentage = totalStickers > 0 ? (totalCollected / totalStickers) * 100 : 0
 
-  const chartData = [
-    { name: "Coletadas", value: totalCollected },
-    { name: "Faltando", value: missing },
-  ]
-
   if (loading) {
     return (
       <div className="min-h-screen bg-zinc-900 flex items-center justify-center">
@@ -39,38 +39,11 @@ function EstatisticasContent() {
         <h1 className="text-white text-2xl font-bold mb-8">Estatísticas</h1>
 
         <div className="bg-zinc-800 rounded-xl border border-zinc-700 p-8 flex items-center justify-center mb-8">
-          <div className="relative w-full" style={{ height: 280 }}>
-            <ResponsiveContainer width="100%" height={280}>
-              <PieChart>
-                <Pie
-                  data={chartData}
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={90}
-                  outerRadius={120}
-                  startAngle={90}
-                  endAngle={-270}
-                  dataKey="value"
-                  labelLine={false}
-                >
-                  <Cell fill="#10b981" />
-                  <Cell fill="#3f3f46" />
-                </Pie>
-                <Tooltip
-                  contentStyle={{ background: "#27272a", border: "1px solid #52525b", borderRadius: 8 }}
-                  itemStyle={{ color: "#fff" }}
-                  formatter={(value: number, name: string) => [value, name]}
-                />
-              </PieChart>
-            </ResponsiveContainer>
-
-            <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none animate-fade-in">
-              <span className="text-white text-4xl font-bold leading-none">
-                {percentage.toFixed(1)}%
-              </span>
-              <span className="text-zinc-400 text-sm mt-1">completo</span>
-            </div>
-          </div>
+          <StatsChart
+            totalCollected={totalCollected}
+            missing={missing}
+            percentage={percentage}
+          />
         </div>
 
         <div className="grid grid-cols-2 gap-4">

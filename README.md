@@ -186,6 +186,8 @@ http://localhost:3000
 
 ---
 
+Obs: Se não der certo por aqui, ou se o servidor estiver com falhas, tente iniciar pelo arquivo start.sh
+
 ## Criado por
 
 **Davi Trida**
